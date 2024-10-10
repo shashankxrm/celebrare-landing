@@ -1,0 +1,134 @@
+body{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-items: center;
+}
+/* Header */
+header {
+    background-color: #FFF;
+    color: #fff;
+    margin-left: 8.75rem;
+}
+
+#celebrare-logo {
+    width: 2.5625rem;
+    height: 4.02256rem;
+    flex-shrink: 0;
+    margin-right: 28.94rem;
+}
+#celebrare-text-logo{
+    width: 9.48031rem;
+    height: 2.40313rem;
+    flex-shrink: 0;
+    margin-right: 17.27rem;
+}
+.language {
+color: #000;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 131%;
+    /* 0.9825rem */
+}
+
+
+/* Birthday cards */
+
+.birthday-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 8.75rem;
+    margin-right: 8.75rem;
+    
+}
+.birthday-cards-text{
+    color: #494949;
+    font-family: Merriweather;
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.02625rem;
+}
+.birthday-cards-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 45.06rem;
+}
+.birthday-card-category{
+    width: 9.4375rem;
+    height: 8.5625rem;
+    flex-shrink: 0;
+    margin-bottom: 3.19rem;
+    display: flex;
+    flex-direction: column;
+}
+#funny-cards > img{
+    height: 9rem;
+    width: 9rem;
+}
+.birthday-card-category > p{
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem;
+    color: #494949;
+    font-family: Merriweather;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.00938rem;
+    
+}
+
+/* Anniversary cards */
+.anniversary-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 8.75rem;
+    margin-right: 8.75rem;
+    
+}
+.anniversary-cards-text{
+    color: #494949;
+    font-family: Merriweather;
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.02625rem;
+}
+.anniversary-cards-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 45.83rem ;
+}
+.anniversary-card-category{
+    width: 12.5rem;
+    height: 14.0625rem;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+}
+.anniversary-card-category > p{
+    color: #494949;
+    font-family: Merriweather;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;        line-height: normal;
+    letter-spacing: 0.0125rem;
+    margin-top: 0rem;
+    
+}
+
+    
