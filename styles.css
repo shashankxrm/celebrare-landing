@@ -184,7 +184,76 @@ color: #000;
     line-height: normal;
     margin-right: 1rem;
 }
+/* */
 
+.achievements-container {
+    text-align: center;
+    margin-top: 18%;
+    padding: 3%;
+    border-radius: 2%;
+    
+    box-shadow: 0 0 2% rgba(0, 0, 0, 0.1);
+    background: #FFF;
+    
+}
+.achievements-container-content{
+    border: 2px solid rgba(0, 0, 0, 0.15);;
+    stroke-width: 1.2px;
+    stroke: #C8C8C8;
+    width: 30.875rem;
+    height: 7.9375rem;
+    flex-shrink: 0;
+}
+
+.achievements-container h3 {
+    color: #3E3D3D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.875rem;
+    text-align: center;
+    
+}
+
+
+.achievements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #3E3D3D;
+    font-family: Montserrat;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.875rem;
+    text-align: center;
+}
+
+.achievement {
+    text-align: center;
+}
+
+.achievement span {
+    color: #3E3D3D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.875rem;
+    text-align: center;
+    display: block;
+    margin-bottom: -0.8rem;
+}
+
+.icon-star {
+    color: #f4b400;
+}
+
+.achievement p {
+    font-size: 1rem;
+    color: #777;
+}
 
 
 
