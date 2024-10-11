@@ -32,6 +32,154 @@ color: #000;
     line-height: 131%;
     /* 0.9825rem */
 }
+/*  Greeting Options */
+.greeting-style-container {
+    width: 100%;
+    margin-left: 5.06rem;
+    height: 51.75rem;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.greeting-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    gap: 1rem;
+}
+.Main-text{
+    width: 30.4375rem;
+    color: #454545;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.687%;
+    /* 3.01194rem */
+    margin-bottom: -1.6rem;
+}
+.sub-text{
+    width: 52.125rem;
+    color: #717171;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.01125rem;
+}
+.greeting-options-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 3rem;
+}
+.greeting-option-left{
+    display: flex;
+    flex-direction: column;
+}
+.greeting-option-left-image{
+    width: 32.4375rem;
+        height: 17.625rem;
+        flex-shrink: 0;
+        border-radius: 0rem 0rem 0.4375rem 0.4375rem;
+            background: #EAEAEA;
+}
+.greeting-option-text-left{
+    margin-left: 2rem;
+}
+.greeting-option-text-right {
+    margin-left: 2rem;
+}
+.greeting-option-text-left-main{
+    width: 31.75rem;
+    color: #454545;
+    font-family: Merriweather;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.687%;
+}
+.greeting-option-text-left-sub {
+
+    color: #454545;
+    font-family: Montserrat;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.01125rem;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.greeting-option-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting-option-right-image {
+    width: 32.4375rem;
+    height: 17.625rem;
+    flex-shrink: 0;
+    border-radius: 0rem 0rem 0.4375rem 0.4375rem;
+    background: #EAEAEA;
+}
+
+.greeting-option-text-right-main {
+    width: 31.75rem;
+    color: #454545;
+    font-family: Merriweather;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.687%;
+}
+
+.greeting-option-text-right-sub {
+
+    color: #454545;
+    font-family: Montserrat;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.01125rem;
+    margin-left: 1rem;
+}
+.greeting-option-text-left-sub-link {
+    width: 6.4375rem;
+    color: #454545;
+    font-family: Merriweather;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.687%;
+    /* 1.89319rem */
+    text-decoration-line: underline;
+    margin-left: 1rem;
+}
+.greeting-option-text-right-sub-link{
+    width: 6.4375rem;
+    color: #454545;
+        font-family: Merriweather;
+        font-size: 1.375rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 137.687%;
+        /* 1.89319rem */
+        text-decoration-line: underline;
+        margin-left: 1rem;
+}
+
+
 
 /* Feeling cards */
 
@@ -138,7 +286,7 @@ color: #000;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 45.06rem;
+    margin-left: 40.06rem;
 }
 .birthday-card-category{
     width: 9.4375rem;
