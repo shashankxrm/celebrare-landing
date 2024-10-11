@@ -33,6 +33,86 @@ color: #000;
     /* 0.9825rem */
 }
 
+/* Feeling cards */
+
+.feeling-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 15.75rem;
+    margin-right: 8.75rem;
+    flex-direction: column;
+    gap: 3rem;
+}
+.feeling-cards-text{
+    color: #494949;
+    font-family: Merriweather;
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.02625rem;
+    
+}
+.feelings-cards-categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.feeling-cards-categories-left{
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+
+.feeling-card-left-category {
+    display: flex;
+    flex-direction: column;
+    width: 16.93rem;
+    height: 22.5rem;
+    padding-bottom: 0.00013rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+
+.feeling-card-left-category > p{
+    color: #494949;
+    font-family: Merriweather;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.015rem;
+}
+.feeling-cards-categories-right {
+    margin-top: 10rem;
+    margin-right: 10rem;
+    flex-direction: column;
+
+}
+.feeling-card-right-category {
+    display: flex;
+    flex-direction: column;
+    width: 16.93rem;
+    height: 25.5rem;
+    padding-bottom: 0.00013rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.feeling-card-right-category > p {
+    color: #494949;
+    font-family: Merriweather;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.015rem;
+}
 
 /* Birthday cards */
 
@@ -40,7 +120,7 @@ color: #000;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 8.75rem;
+    margin-left: 15.75rem;
     margin-right: 8.75rem;
     
 }
@@ -52,6 +132,7 @@ color: #000;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.02625rem;
+    
 }
 .birthday-cards-categories {
     display: flex;
@@ -111,8 +192,8 @@ color: #000;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 8.75rem;
-    margin-right: 8.75rem;
+    margin-left: 15.75rem;
+    gap: 2rem;
     
 }
 .anniversary-cards-text{
@@ -123,6 +204,7 @@ color: #000;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.02625rem;
+    
 }
 .anniversary-cards-categories {
     display: flex;
