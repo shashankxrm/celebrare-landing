@@ -3,6 +3,27 @@ body{
     width: 90%;
     align-items: center;
     justify-items: center;
+    margin: auto;
+}
+/* AD */
+.ad{
+    height: 12.5rem;
+    width: 72.75rem;
+    background: #D9D9D9;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20rem;
+}
+.text{
+    color: #000;
+        font-family: Merriweather;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.03rem;
 }
 /* Header */
 header {
@@ -32,10 +53,145 @@ color: #000;
     line-height: 131%;
     /* 0.9825rem */
 }
+/* Hero section */
+.hero-section{
+    margin-top: 3rem;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 10rem;
+    margin-bottom: 10rem;
+}
+.hero-section-video{
+    border-radius: 1.5rem;
+    border: 0.005rem solid black;
+    
+    width: 32.8215rem;
+    height: 30.9375rem;
+    z-index: 1;
+    position: relative;
+}
+.watch-tutorial-modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 22.0625rem;
+    height: 9.0625rem;
+    flex-shrink: 0;
+    position: absolute;
+    z-index: 2;
+    fill: #FFF;
+        filter: drop-shadow(0px 8px 25px rgba(0, 0, 0, 0.10));
+    top: 27rem;
+    left: 5rem;
+    background: #FFF;
+    border-radius: 1rem;
+    justify-content: center;
+}
+.hero-text{
+    font-family: 'Montserrat', sans-serif;
+}
+#green-text{
+    color: #4E9459;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+}
+#green-sub-text{
+    text-align: center;
+}
+.watch-tutorial-button{
+    width: 10.9375rem;
+    height: 2.8125rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    border: 1px solid #696969;
+    background: #FFF;
+    margin-left: 1.8rem;
+}
+.watch-tutorial-button > img{
+    position:absolute;
+    left: 6rem;
+    bottom: 1.2rem;
+    display: flex;
+}
+#watch-tutorial-text{
+    color: #696969;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    top: 5.7rem;
+    left: 8rem;
+    display: flex;
+    position: absolute;
+}
+.hero-section-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7rem;
+    
+}
+.hero-section-text-main{
+    color: #454545;
+    font-family: Merriweather;
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.75rem;
+    width: 29.815rem;
+    height: 7.5rem;
+    margin-bottom: 0rem;
+}
+.hero-section-text-sub{
+    width: 27.25rem;
+    color: #444343;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 161%;
+    margin-bottom: 2rem;
+}
+.create-greeting-button{
+    width: 21.5625rem;
+    height: 3.75rem;
+    border-radius: 0.625rem;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.15);
+    background: #4E9459;
+    flex-shrink: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create-greeting-button > a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 1rem;
+}
+
+
+
+
 /*  Greeting Options */
 .greeting-style-container {
     width: 100%;
-    margin-left: 5.06rem;
+    
     height: 51.75rem;
     flex-shrink: 0;
     display: flex;
@@ -383,4 +539,113 @@ color: #000;
     
 }
 
+/* More about greeting cards */
+
+.more-about-greeting-cards{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 50rem;
+}
+
+.heading-greeting-cards{
+    color: #494949;
+        font-family: Montserrat;
+        font-size: 1.875rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+}
+
+
+/* Footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7rem;
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
     
+}
+.footer-logo{
+    width: 24rem;
+    margin-right: 8.56rem;
+}
+.footer-description{
+    color: #000;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.188%;
+        /* 1.38188rem */
+}
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    
+}
+.footer-column > h3 {
+    color: #000;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 123.688%;
+        /* 1.54613rem */
+}
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 8rem;
+    
+}
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    margin-right: 8.56rem;
+    justify-content: space-around;
+}
+.footer-column > p > a{
+    color: #000;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 123.688%;
+    
+        /* 1.23688rem */
+        text-decoration: none;
+}
+.footer-bottom{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-copyright{
+    color: #040404;
+        font-family: Roboto;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 138.188%;
+        /* 1.38188rem */
+}
+.footer-social{
+    color: #040404;
+        font-family: Roboto;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 138.188%;
+        /* 1.38188rem */
+}
