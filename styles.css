@@ -173,6 +173,7 @@ color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5rem;
 }
 .create-greeting-button > a{
     text-decoration: none;
@@ -187,47 +188,47 @@ color: #000;
 /* */
 
 .achievements-container {
+    position: relative;
+    /* This allows positioning of the h3 element */
     text-align: center;
-    margin-top: 18%;
-    padding: 3%;
-    border-radius: 2%;
-    
+    margin-top: 5%;
+    padding: -1% 3% 5% 3%;
+    /* Add more padding to the bottom to accommodate content */
+    border-radius: 0.75rem;
+    border: 1px solid #e0e0e0;
     box-shadow: 0 0 2% rgba(0, 0, 0, 0.1);
-    background: #FFF;
-    
-}
-.achievements-container-content{
-    border: 2px solid rgba(0, 0, 0, 0.15);;
-    stroke-width: 1.2px;
-    stroke: #C8C8C8;
-    width: 30.875rem;
-    height: 7.9375rem;
-    flex-shrink: 0;
 }
 
 .achievements-container h3 {
-    color: #3E3D3D;
+    position: absolute;
+    top: -1.5rem;
+    /* Moves the text above the border */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    /* Same as the background color to "cut" the border */
+    padding: 0 1rem;
+    /* Adds padding to space out text from the border */
+    font-size: 1rem;
+    color: #888;
+    white-space: nowrap;
+    color: rgba(0, 0, 0, 0.50);
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.125rem;
     font-style: normal;
-    font-weight: 500;
-    line-height: 1.875rem;
-    text-align: center;
+    line-height: normal;
+    font-weight: 450;
+    
+    
+
     
 }
-
 
 .achievements {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: #3E3D3D;
-    font-family: Montserrat;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.875rem;
-    text-align: center;
+    margin-top: 2rem;
+    /* Adds space below the title */
 }
 
 .achievement {
@@ -236,14 +237,23 @@ color: #000;
 
 .achievement span {
     color: #3E3D3D;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.875rem;
+    margin-bottom: 0.5rem;
+}
+.achievement p{
+    color: rgba(0, 0, 0, 0.60);
     text-align: center;
-    display: block;
-    margin-bottom: -0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+    
+    
 }
 
 .icon-star {
