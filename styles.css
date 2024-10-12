@@ -105,13 +105,13 @@ color: #000;
     text-align: center;
 }
 .watch-tutorial-button{
-    width: 10.9375rem;
+    width: 74%;
     height: 2.8125rem;
     flex-shrink: 0;
     border-radius: 0.5rem;
     border: 1px solid #696969;
     background: #FFF;
-    margin-left: 1.8rem;
+    margin-left: 10%;
 }
 .watch-tutorial-button > img{
     position:absolute;
