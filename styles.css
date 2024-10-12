@@ -39,10 +39,10 @@ header {
     margin-right: 32%;
 }
 #celebrare-text-logo{
-    width: 9.48031rem;
-    height: 2.40313rem;
+    width: 12%;
+    height: auto;
     flex-shrink: 0;
-    margin-right: 17.27rem;
+    margin-right: 22%;
 }
 .language {
 color: #000;
