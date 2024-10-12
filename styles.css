@@ -572,7 +572,7 @@ color: #000;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 15.75rem;
+    margin-left: 16%;
     gap: 2rem;
     
 }
@@ -590,17 +590,18 @@ color: #000;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-right: 45.83rem ;
+    margin-right: 59% ;
+    padding-left: 3%
 }
 .anniversary-card-category{
     width: 12.5rem;
-    height: 14.0625rem;
+    height: 40%;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 9%;
     
 }
 .anniversary-card-category > p{
@@ -635,7 +636,7 @@ color: #000;
         line-height: normal;
 }
 
-
+/* DIDNT MAKE ANY UNIT CONVERSIONS TO % AS IT WILL BE BUILT SEPERATELY */
 /* Footer */
 footer{
     display: flex;
