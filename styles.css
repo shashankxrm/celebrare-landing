@@ -500,8 +500,8 @@ color: #000;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 15.75rem;
-    margin-right: 8.75rem;
+    margin-left: 16%;
+    margin-right: 10%;
     
 }
 .birthday-cards-text{
@@ -518,40 +518,40 @@ color: #000;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 35.06rem;
+    margin-left: 52%;
 }
 .birthday-card-category{
-    width: 9.4375rem;
+    width: 28%;
     height: 8.5625rem;
     flex-shrink: 0;
-    margin-bottom: 3.19rem;
+    margin-bottom: 9%;
     display: flex;
     flex-direction: column;
 }
 
 #funny-cards > img{
-    height: 9rem;
-    width: 9rem;
+    height: 100%;
+    width: 270%;
     
 }
 .birthday-card-category:nth-child(7) > p {
-    margin-left: 11rem;
+    margin-left: 113%;
 }
 .birthday-card-category:nth-child(8) > p {
-    margin-right: 8rem;
+    margin-right: 75%;
     text-align: center;
 }
 #general-cards > img {
-    height: 9rem;
-    width: 9rem;
-    margin-left: -4rem;
+    height: 100%;
+    width: 270%;
+    margin-left: -106%;
 }
 
 .birthday-card-category #funny-cards{
-    margin-left: 6rem;
+    margin-left: 63%;
 }
 .birthday-card-category #general-cards{
-    margin-right: 6rem;
+    margin-right: 64%;
 }
 .birthday-card-category > p{
     display: flex;
