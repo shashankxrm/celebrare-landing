@@ -134,7 +134,7 @@ color: #000;
 .hero-section-text{
     display: flex;
     flex-direction: column;
-    margin-left: 7rem;
+    margin-left: 7%;
     
 }
 .hero-section-text-main{
