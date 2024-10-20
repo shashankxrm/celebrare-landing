@@ -16,6 +16,7 @@ body{
     display: flex;
     justify-content: center;
     margin: 8% auto;
+    width: 90%;
     
 }
 
@@ -350,3 +351,64 @@ header{
     margin-right: -7%;
 }
 
+/* Anniversary Cards */
+
+.anniversary-cards-container{
+    display: flex;
+    margin: 5% 10%;
+    flex-direction: column;
+}
+
+.anniversary-cards-text{
+    color: #494949;
+    font-family: 'Merriweather', serif;
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.02625rem;
+}
+
+.anniversary-cards-categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 46%;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+
+.anniversary-card-category{
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto;
+}
+
+.anniversary-category-text{
+    color: #494949;
+    font-family: 'Merriweather', serif;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.00938rem;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+/* More about greeting cards */
+
+.more-about-greeting-cards{
+    display: flex;
+    margin: 5% 10%;
+    
+}
+.heading-greeting-cards {
+    color: #494949;
+    font-family: 'Montserrat', serif;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 20% auto;
+}
