@@ -116,13 +116,13 @@ header{
     background: #FFF;
     border-radius: 1rem;
     justify-content: center;
-    width: 19%;
+    width: 18%;
     display: flex;
     position: absolute;
     transform: translate(36%, 166%);
     fill: #FFF;
         filter: drop-shadow(0px 8px 25px rgba(0, 0, 0, 0.10));
-    height: 25%;
+    height: 16%;
 }
 .watch-tutorial-modal-content{
     display: flex;
@@ -144,7 +144,7 @@ header{
 }
 #green-sub-text{
     color: #696969;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
@@ -154,7 +154,7 @@ header{
 }
 #watch-tutorial-text{
     color: #696969;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
@@ -170,4 +170,129 @@ header{
     padding: 4%;
     text-decoration: none;
 }
+.hero-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    padding: 0 12%;
+}
+.hero-text-main{
+    color: #454545;
+    font-family: 'Merriweather', serif;
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.75rem; /* 142.857% */
+}
+.hero-text-sub{
+    color: #444343;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 161%; /* 1.61rem */
+    width: 75%;
+}
 
+.create-greeting-button{
+    border-radius: 0.625rem;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.15);
+    background: #4E9459;
+    flex-shrink: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 55%;
+    text-decoration: none;
+    color: #FFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.create-greeting-button-text{
+    padding: 1% 0;
+}
+
+/* Feeling Cards */
+
+.feeling-cards-container{
+    display: flex;
+    margin: 5% 10%;
+    flex-direction: column;
+}
+
+.feeling-cards-text{
+    color: #494949;
+    font-family: 'Merriweather', serif;
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.02625rem;
+}
+
+.feelings-cards-categories{
+    display: flex;
+    
+   
+}
+
+.feeling-cards-categories-left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.feeling-category-left-text{
+    color: #494949;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.015rem;
+}
+
+.feeling-card-left-category{
+    display: flex;
+    flex-direction: column;
+    margin: 15% auto;
+
+}
+
+.feeling-category-left-text{
+    color: #494949;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.015rem;
+    margin: 4% auto;
+}
+
+.feeling-cards-categories-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-top: 18%;
+}
+.feeling-card-right-category{
+    display: flex;
+    flex-direction: column;
+    margin: 11% auto;
+}
+.feeling-category-right-text{
+    color: #494949;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.015rem;
+    margin: 4% auto;
+}
