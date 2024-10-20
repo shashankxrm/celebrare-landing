@@ -1,6 +1,6 @@
 body{
     width: 90%;
-    
+    margin: 0 auto;
 }
 
 .greetings-landing-page{
@@ -96,7 +96,7 @@ header{
 /* Hero Section */
 .hero-section{
     display: flex;
-    
+    justify-content: center;
     
 }
 .hero-video-container{
@@ -117,13 +117,13 @@ header{
     background: #FFF;
     border-radius: 1rem;
     justify-content: center;
-    width: 18%;
+    width: 21%;
     display: flex;
     position: absolute;
-    transform: translate(36%, 166%);
+    transform: translate(31%, 166%);
     fill: #FFF;
         filter: drop-shadow(0px 8px 25px rgba(0, 0, 0, 0.10));
-    height: 16%;
+    height: 18%;
 }
 .watch-tutorial-modal-content{
     display: flex;
@@ -176,7 +176,6 @@ header{
     flex-direction: column;
     justify-content: center;
     width: 45%;
-    padding: 0 12%;
 }
 .hero-text-main{
     color: #454545;
@@ -185,6 +184,8 @@ header{
     font-style: normal;
     font-weight: 700;
     line-height: 3.75rem; /* 142.857% */
+    margin-top: 15%;
+    margin-bottom: 1%;
 }
 .hero-text-sub{
     color: #444343;
@@ -212,11 +213,83 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
+    padding: 2%;
+    margin-bottom: 15%;
 }
 .create-greeting-button-text{
     padding: 1% 0;
 }
+
+.achievements-container {
+    stroke-width: 1.2px;
+    stroke: #C8C8C8;
+    fill: #FFFFFF;
+    border-radius: 1.5rem;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    background: #FFF;
+    width: 90%;
+    margin-bottom: 1%;
+
+}
+.achievements-main-text{
+    color: rgba(0, 0, 0, 0.50);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    position: absolute;
+    background: #FFF;
+    padding: 0 1%;
+    transform: translateX(-50%);
+    margin-top: -0.7%;
+    margin-left: 16.5%;
+}
+
+.achievements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7%;
+    margin-bottom: 2%;
+    /* Adds space below the title */
+}
+
+.achievement {
+    text-align: center;
+}
+
+.achievement span {
+    color: #3E3D3D;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.achievement p {
+    color: rgba(0, 0, 0, 0.60);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+
+
+}
+
+.icon-star {
+    color: #f4b400;
+}
+
+.achievement p {
+    font-size: 1rem;
+    color: #777;
+}
+
 
 /* Greeting Styles */
 
@@ -275,7 +348,7 @@ header{
 }
 .greeting-option-text-left-main{
     color: #454545;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 2rem;
     font-style: normal;
     font-weight: 400;
@@ -285,7 +358,7 @@ header{
 }
 .greeting-option-text-left-sub{
     color: #454545;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
@@ -295,7 +368,7 @@ header{
 }
 .greeting-option-text-left-sub-link{
     color: #454545;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 1.375rem;
     font-style: normal;
     font-weight: 400;
