@@ -1,10 +1,10 @@
 body{
-    width: 100%;
+    width: 90%;
     
 }
 
 .greetings-landing-page{
-    width: 90%;
+    width: 91%;
     margin: 0 auto;
 
 }
@@ -217,6 +217,146 @@ header{
 .create-greeting-button-text{
     padding: 1% 0;
 }
+
+/* Greeting Styles */
+
+.greeting-style-container{
+    display: flex;
+    margin: 5% 10%;
+    flex-direction: column;
+}
+
+.greeting-text-conatiner{
+    display: flex;
+    flex-direction: column;
+}
+.Main-text{
+    color: #454545;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.687%; /* 3.01194rem */
+    margin: 1% auto;
+}
+
+.sub-text{
+    color: #717171;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.01125rem;
+    margin: 1% auto;
+}
+
+.greeting-options-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.greeting-option-left{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.greeting-option-left-image{
+    border-radius: 0rem 0rem 0.4375rem 0.4375rem;
+    background: #EAEAEA;
+    height: 20rem;
+}
+.greeting-option-text-left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.greeting-option-text-left-main{
+    color: #454545;
+    font-family: Merriweather;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.687%; /* 2.75375rem */
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+.greeting-option-text-left-sub{
+    color: #454545;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+.greeting-option-text-left-sub-link{
+    color: #454545;
+    font-family: Merriweather;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.687%; /* 1.89319rem */
+    text-decoration-line: underline;
+}
+
+
+.greeting-option-right {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.greeting-option-right-image {
+    border-radius: 0rem 0rem 0.4375rem 0.4375rem;
+    background: #EAEAEA;
+    height: 20rem;
+}
+
+.greeting-option-text-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.greeting-option-text-right-main {
+    color: #454545;
+    font-family: Merriweather;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.687%;
+    /* 2.75375rem */
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+
+.greeting-option-text-right-sub {
+    color: #454545;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+
+.greeting-option-text-right-sub-link {
+    color: #454545;
+    font-family: Merriweather;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.687%;
+    /* 1.89319rem */
+    text-decoration-line: underline;
+}
+
+
 
 /* Feeling Cards */
 
