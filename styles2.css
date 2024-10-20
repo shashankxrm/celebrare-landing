@@ -296,3 +296,57 @@ header{
     letter-spacing: 0.015rem;
     margin: 4% auto;
 }
+
+/* Birthday Cards */
+.birthday-cards-container{
+    display: flex;
+    margin: 5% 10%;
+    flex-direction: column;
+}
+
+.birthday-cards-text{
+    color: #494949;
+    font-family: 'Merriweather', serif;
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.02625rem;
+}
+
+.birthday-cards-categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 50%;
+    margin-top: 2%;
+}
+
+.birthday-category-text{
+    color: #494949;
+    font-family: 'Merriweather', serif;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.00938rem;
+    margin: 0 auto;
+}
+
+.birthday-card-category{
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto;
+    width: 27%;
+}
+
+.birthday-card-category:nth-last-child(-n+2) img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.birthday-card-category:nth-child(7){
+    margin-right: -7%;
+}
+
