@@ -1,96 +1,137 @@
 body{
-    display: flex;
     width: 90%;
-    align-items: center;
-    justify-items: center;
-    margin: auto;
+    margin: 0 auto;
 }
+
+.greetings-landing-page{
+    width: 91%;
+    margin: 0 auto;
+
+}
+
 /* AD */
-.ad{
-    height: 78.1%;
-    width: 90.84%;
+.ad {
     background: #D9D9D9;
     align-items: center;
     display: flex;
     justify-content: center;
-    margin: auto;
-    margin-bottom: 20rem;
-}
-.text{
-    color: #000;
-        font-family: 'Merriweather', serif;
-        font-size: 3rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 0.03rem;
-}
-/* Header */
-header {
-    background-color: #FFF;
-    color: #fff;
-    margin-left: 12%;
+    margin: 8% auto;
+    width: 90%;
+    
 }
 
-#celebrare-logo {
-    width: 3%;
-    height: 4%;
-    flex-shrink: 0;
-    margin-right: 32%;
+.text {
+    color: #000;
+    font-family: 'Merriweather', serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.03rem;
 }
-#celebrare-text-logo{
-    width: 12%;
-    height: auto;
-    flex-shrink: 0;
-    margin-right: 22%;
+
+/* Header */
+header{
+    margin-bottom: 3%;
 }
-.language {
-color: #000;
+
+.header-container{
+    display: flex;
+    align-items: center;  
+}
+
+.center-logo{
+    display: flex;
+    margin-left: 40%;
+    margin-right: 30%;
+}
+
+.right-options{
+    display: flex;
+    gap: 7%;
+    align-items: center;
+    width: 15%;
+}
+
+.language-selector-text{
+    font-family: 'Montserrat', sans-serif;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 131%;
+}
+.language-selector{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.join-login-options{
+    display: flex;
+    gap: 5%;
+    width: 40%;
+    align-items: center;
+}
+
+.join{
+    text-decoration: none;
+    color: #000;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.75rem;
     font-style: normal;
     font-weight: 400;
     line-height: 131%;
-    /* 0.9825rem */
 }
-/* Hero section */
+.login{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 131%;
+}
+
+/* Hero Section */
 .hero-section{
-    margin-top: 6%;
-    width: 100%;
-    display: inline-flex;
-    flex-direction: row;
-    margin-left: 11%;
-    margin-bottom: 10%;
-}
-.hero-section-video{
-    border-radius: 1.5rem;
-    border: 0.005rem solid black;
+    display: flex;
+    justify-content: center;
     
-    width: 32.8215rem;
-    height: 30.9375rem;
-    z-index: 1;
-    position: relative;
 }
-.watch-tutorial-modal{
+.hero-video-container{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    width: 66%;
-    height: 29.7%;
-    flex-shrink: 0;
-    position: absolute;
-    z-index: 2;
-    fill: #FFF;
-        filter: drop-shadow(0px 8px 25px rgba(0, 0, 0, 0.10));
-    top: 89%;
-    left: 16%;
+    width: 50%;
+}
+
+.hero-video{
+    border-radius: 1.5rem;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    background: #FFF;
+    width: 80%;
+    height: 30rem;
+}
+.watch-tutorial-modal{
     background: #FFF;
     border-radius: 1rem;
     justify-content: center;
+    width: 21%;
+    display: flex;
+    position: absolute;
+    transform: translate(31%, 166%);
+    fill: #FFF;
+        filter: drop-shadow(0px 8px 25px rgba(0, 0, 0, 0.10));
+    height: 18%;
 }
-.hero-text{
-    font-family: 'Montserrat', sans-serif;
+.watch-tutorial-modal-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
 }
 #green-text{
     color: #4E9459;
@@ -98,26 +139,19 @@ color: #000;
         font-size: 1rem;
         font-style: normal;
         font-weight: 500;
-        line-height: normal;
-        text-align: center;
+        line-height: normal;   
+        margin-top: 2%;
+        margin-bottom: 3%;
 }
 #green-sub-text{
-    text-align: center;
-}
-.watch-tutorial-button{
-    width: 74%;
-    height: 2.8125rem;
-    flex-shrink: 0;
-    border-radius: 0.5rem;
-    border: 1px solid #696969;
-    background: #FFF;
-    margin-left: 10%;
-}
-.watch-tutorial-button > img{
-    position:absolute;
-    left: 28%;
-    bottom: 13%;
-    display: flex;
+    color: #696969;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 0%;
+    margin-bottom: 6%;
 }
 #watch-tutorial-text{
     color: #696969;
@@ -126,41 +160,44 @@ color: #000;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    top: 63%;
-    left: 36%;
-    display: flex;
-    position: absolute;
+    margin: 0 auto;
 }
-.hero-section-text{
+.watch-tutorial-button{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+        border: 1px solid #696969;
+    padding: 4%;
+    text-decoration: none;
+}
+.hero-text-container{
     display: flex;
     flex-direction: column;
-    margin-left: 7%;
-    
+    justify-content: center;
+    width: 45%;
 }
-.hero-section-text-main{
+.hero-text-main{
     color: #454545;
     font-family: 'Merriweather', serif;
     font-size: 2.625rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 3.75rem;
-    width: 65%;
-    height: 22%;
-    margin-bottom: 0rem;
+    line-height: 3.75rem; /* 142.857% */
+    margin-top: 15%;
+    margin-bottom: 1%;
 }
-.hero-section-text-sub{
-    width: 49%;
+.hero-text-sub{
     color: #444343;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 161%;
-    margin-bottom: 4%;
+    line-height: 161%; /* 1.61rem */
+    width: 75%;
 }
+
 .create-greeting-button{
-    width: 39%;
-    height: 11%;
     border-radius: 0.625rem;
     box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.15);
     background: #4E9459;
@@ -170,49 +207,43 @@ color: #000;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 7%;
-}
-.create-greeting-button > a{
+    width: 55%;
     text-decoration: none;
     color: #FFF;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-right: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+    margin-bottom: 15%;
 }
-/* */
+.create-greeting-button-text{
+    padding: 1% 0;
+}
 
 .achievements-container {
-    position: relative;
-    text-align: center;
-    margin-top: 5%;
-    padding: -1% 3% 5% 3%;
-    border-radius: 0.75rem;
-    border: 1px solid #e0e0e0;
-    box-shadow: 0 0 2% rgba(0, 0, 0, 0.1);
-    width: 60%;
-}
+    stroke-width: 1.2px;
+    stroke: #C8C8C8;
+    fill: #FFFFFF;
+    border-radius: 1.5rem;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    background: #FFF;
+    width: 90%;
+    margin-bottom: 1%;
 
-.achievements-container h3 {
-    position: absolute;
-    top: -1.5rem;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffffff;
-    padding: 0 3%;
-    font-size: 1rem;
-    color: #888;
-    white-space: nowrap;
+}
+.achievements-main-text{
     color: rgba(0, 0, 0, 0.50);
     font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
     font-style: normal;
-    line-height: normal;
     font-weight: 450;
+    line-height: normal;
+    position: absolute;
+    background: #FFF;
+    padding: 0 1%;
+    transform: translateX(-50%);
+    margin-top: -0.7%;
+    margin-left: 16.5%;
 }
 
 .achievements {
@@ -235,9 +266,10 @@ color: #000;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 500;
-    
+
 }
-.achievement p{
+
+.achievement p {
     color: rgba(0, 0, 0, 0.60);
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -245,8 +277,8 @@ color: #000;
     font-style: normal;
     font-weight: 400;
     line-height: 1.875rem;
-    
-    
+
+
 }
 
 .icon-star {
@@ -259,171 +291,154 @@ color: #000;
 }
 
 
+/* Greeting Styles */
 
-/*  Greeting Options */
-.greeting-style-container {
-    width: 100%;
-    height: 51.75rem;
-    flex-shrink: 0;
+.greeting-style-container{
     display: flex;
+    margin: 5% 10%;
     flex-direction: column;
-    align-items: center;
 }
-.greeting-text-container {
+
+.greeting-text-conatiner{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    gap: 1rem;
 }
 .Main-text{
-    width: 33%;
     color: #454545;
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 2.1875rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 137.687%;
-    /* 3.01194rem */
-    margin-bottom: -1%;
+    line-height: 137.687%; /* 3.01194rem */
+    margin: 1% auto;
 }
-.sub-text{
-    width: 55%;
-    color: #717171;
-        text-align: center;
-        font-family: 'Montserrat', serif;
-        font-size: 1.125rem;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        letter-spacing: 0.01125rem;
-        margin-bottom: 5%;
-}
-.greeting-options-container {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    gap: 5%;
-    margin-left: 7%;
-}
-.greeting-option-left{
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    margin-left: -12%;
-}
-.greeting-option-left-image{
-    width: auto;
-    height: 52.5%;
-    flex-shrink: 0;
-    border-radius: 0rem 0rem 0.4375rem 0.4375rem;
-    background: #EAEAEA;
-}
-.greeting-option-text-left{
-    margin-left: 5%;
-}
-.greeting-option-text-right {
-    margin-left: 5%;
-}
-.greeting-option-text-left-main{
-    width: 70%;
-    color: #454545;
-    font-family: "Merriweather", serif;
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 137.687%;
-}
-.greeting-option-text-left-sub {
 
-    color: #454545;
+.sub-text{
+    color: #717171;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.01125rem;
-    margin-left: 1rem;
+    margin: 1% auto;
+}
+
+.greeting-options-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.greeting-option-left{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.greeting-option-left-image{
+    border-radius: 0rem 0rem 0.4375rem 0.4375rem;
+    background: #EAEAEA;
+    height: 20rem;
+}
+.greeting-option-text-left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.greeting-option-text-left-main{
+    color: #454545;
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.687%; /* 2.75375rem */
+    margin-top: 8%;
     margin-bottom: 4%;
+}
+.greeting-option-text-left-sub{
+    color: #454545;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+.greeting-option-text-left-sub-link{
+    color: #454545;
+    font-family: 'Merriweather', serif;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.687%; /* 1.89319rem */
+    text-decoration-line: underline;
 }
 
 
 .greeting-option-right {
     display: flex;
     flex-direction: column;
-    
+    width: 45%;
 }
 
 .greeting-option-right-image {
-    width: 97%;
-    height: 17.625rem;
-    flex-shrink: 0;
     border-radius: 0rem 0rem 0.4375rem 0.4375rem;
     background: #EAEAEA;
+    height: 20rem;
+}
+
+.greeting-option-text-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
 }
 
 .greeting-option-text-right-main {
-    width: 31.75rem;
     color: #454545;
-    font-family: 'Merriweather', serif;
+    font-family: Merriweather;
     font-size: 2rem;
     font-style: normal;
     font-weight: 400;
     line-height: 137.687%;
+    /* 2.75375rem */
+    margin-top: 8%;
+    margin-bottom: 4%;
 }
 
 .greeting-option-text-right-sub {
-
     color: #454545;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.125rem;
+    font-family: Montserrat;
+    font-size: 1rem;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
-    letter-spacing: 0.01125rem;
-    margin-left: 1rem;
+    margin-top: 2%;
+    margin-left: 4%;
 }
-.greeting-option-text-left-sub-link {
-    width: 6.4375rem;
+
+.greeting-option-text-right-sub-link {
     color: #454545;
-    font-family: 'Merriweather', serif;
+    font-family: Merriweather;
     font-size: 1.375rem;
     font-style: normal;
     font-weight: 400;
     line-height: 137.687%;
     /* 1.89319rem */
     text-decoration-line: underline;
-    margin-left: 1rem;
-}
-.greeting-option-text-right-sub-link{
-    width: 6.4375rem;
-    color: #454545;
-        font-family: 'Merriweather', serif;
-        font-size: 1.375rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 137.687%;
-        /* 1.89319rem */
-        text-decoration-line: underline;
-        margin-left: 1rem;
 }
 
 
 
-/* Feeling cards */
+/* Feeling Cards */
 
-.feeling-cards-container {
+.feeling-cards-container{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: 17%;
-    margin-right: 16%;
+    margin: 5% 10%;
     flex-direction: column;
-    gap: 3rem;
 }
+
 .feeling-cards-text{
     color: #494949;
     font-family: 'Merriweather', serif;
@@ -432,59 +447,21 @@ color: #000;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.02625rem;
-    
 }
+
 .feelings-cards-categories{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 22%;
+    
+   
 }
+
 .feeling-cards-categories-left{
-    margin-left: 4%;
     display: flex;
     flex-direction: column;
-    gap: 3%;
-    
+    margin-left: 10%;
 }
 
-.feeling-card-left-category {
-    display: flex;
-    flex-direction: column;
-    height: 25%;
-    padding-bottom: 0.00013rem;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-}
-
-
-.feeling-card-left-category > p{
-    color: #494949;
-    font-family: 'Merriweather', serif;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.015rem;
-}
-.feeling-cards-categories-right {
-    margin-top: 16%;
-    margin-right: 13%;
-    flex-direction: column;
-
-}
-.feeling-card-right-category {
-    display: flex;
-    flex-direction: column;
-    /* width: 16.93rem; */
-    height: 33%;
-    padding-bottom: 0.00013rem;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-}
-.feeling-card-right-category > p {
+.feeling-category-left-text{
     color: #494949;
     font-family: 'Merriweather', serif;
     font-size: 1.5rem;
@@ -494,16 +471,53 @@ color: #000;
     letter-spacing: 0.015rem;
 }
 
-/* Birthday cards */
-
-.birthday-cards-container {
+.feeling-card-left-category{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: 16%;
-    margin-right: 10%;
-    
+    flex-direction: column;
+    margin: 15% auto;
+
 }
+
+.feeling-category-left-text{
+    color: #494949;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.015rem;
+    margin: 4% auto;
+}
+
+.feeling-cards-categories-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-top: 18%;
+}
+.feeling-card-right-category{
+    display: flex;
+    flex-direction: column;
+    margin: 11% auto;
+}
+.feeling-category-right-text{
+    color: #494949;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.015rem;
+    margin: 4% auto;
+}
+
+/* Birthday Cards */
+.birthday-cards-container{
+    display: flex;
+    margin: 5% 10%;
+    flex-direction: column;
+}
+
 .birthday-cards-text{
     color: #494949;
     font-family: 'Merriweather', serif;
@@ -512,51 +526,17 @@ color: #000;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.02625rem;
-    
 }
-.birthday-cards-categories {
+
+.birthday-cards-categories{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 52%;
-}
-.birthday-card-category{
-    width: 28%;
-    height: 8.5625rem;
-    flex-shrink: 0;
-    margin-bottom: 9%;
-    display: flex;
-    flex-direction: column;
+    margin-left: 50%;
+    margin-top: 2%;
 }
 
-#funny-cards > img{
-    height: 100%;
-    width: 270%;
-    
-}
-.birthday-card-category:nth-child(7) > p {
-    margin-left: 113%;
-}
-.birthday-card-category:nth-child(8) > p {
-    margin-right: 75%;
-    text-align: center;
-}
-#general-cards > img {
-    height: 100%;
-    width: 270%;
-    margin-left: -106%;
-}
-
-.birthday-card-category #funny-cards{
-    margin-left: 63%;
-}
-.birthday-card-category #general-cards{
-    margin-right: 64%;
-}
-.birthday-card-category > p{
-    display: flex;
-    justify-content: center;
-    margin-top: 0rem;
+.birthday-category-text{
     color: #494949;
     font-family: 'Merriweather', serif;
     font-size: 0.9375rem;
@@ -564,18 +544,34 @@ color: #000;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.00938rem;
+    margin: 0 auto;
+}
+
+.birthday-card-category{
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto;
+    width: 27%;
+}
+
+.birthday-card-category:nth-last-child(-n+2) img {
+    width: 100%;
+    height: auto;
     
 }
 
-/* Anniversary cards */
-.anniversary-cards-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: 16%;
-    gap: 2rem;
-    
+.birthday-card-category:nth-child(7){
+    margin-right: -7%;
 }
+
+/* Anniversary Cards */
+
+.anniversary-cards-container{
+    display: flex;
+    margin: 5% 10%;
+    flex-direction: column;
+}
+
 .anniversary-cards-text{
     color: #494949;
     font-family: 'Merriweather', serif;
@@ -584,144 +580,48 @@ color: #000;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.02625rem;
-    
 }
-.anniversary-cards-categories {
+
+.anniversary-cards-categories{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-right: 59% ;
-    padding-left: 3%
+    margin-right: 46%;
+    margin-top: 2%;
+    margin-left: 4%;
 }
+
 .anniversary-card-category{
-    width: 12.5rem;
-    height: 40%;
-    flex-shrink: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 9%;
-    
+    margin: 5% auto;
 }
-.anniversary-card-category > p{
+
+.anniversary-category-text{
     color: #494949;
     font-family: 'Merriweather', serif;
-    font-size: 1.25rem;
+    font-size: 0.9375rem;
     font-style: normal;
-    font-weight: 700;        
+    font-weight: 700;
     line-height: normal;
-    letter-spacing: 0.0125rem;
-    margin-top: 0rem;
+    letter-spacing: 0.00938rem;
+    margin: 0 auto;
+    margin-top: 3%;
 }
 
 /* More about greeting cards */
 
 .more-about-greeting-cards{
     display: flex;
-    width: 90%;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    height: 50rem;
+    margin: 5% 10%;
+    
 }
-
-.heading-greeting-cards{
+.heading-greeting-cards {
     color: #494949;
-        font-family: 'Montserrat', serif;
-        font-size: 1.875rem;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-}
-
-/* DIDNT MAKE ANY UNIT CONVERSIONS TO % AS IT WILL BE BUILT SEPERATELY */
-/* Footer */
-footer{
-    display: flex;
-    flex-direction: column;
-    margin-left: 7rem;
-}
-.footer-content{
-    display: flex;
-    flex-direction: row;
-    
-}
-.footer-logo{
-    width: 24rem;
-    margin-right: 8.56rem;
-}
-.footer-description{
-    color: #000;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-family: 'Montserrat', serif;
+    font-size: 1.875rem;
     font-style: normal;
-    font-weight: 400;
-    line-height: 138.188%;
-        /* 1.38188rem */
-}
-.footer-links{
-    display: flex;
-    flex-direction: row;
-    
-}
-.footer-column > h3 {
-    color: #000;
-        text-align: center;
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.25rem;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 123.688%;
-        /* 1.54613rem */
-}
-.footer-column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 8rem;
-    
-}
-.footer-links{
-    display: flex;
-    flex-direction: row;
-    margin-right: 8.56rem;
-    justify-content: space-around;
-}
-.footer-column > p > a{
-    color: #000;
-        text-align: center;
-        font-family: 'Roboto', sans-serif;
-        font-size: 1rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 123.688%;
-    
-        /* 1.23688rem */
-        text-decoration: none;
-}
-.footer-bottom{
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-.footer-copyright{
-    color: #040404;
-        font-family: 'Roboto', sans-serif;
-        font-size: 1rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 138.188%;
-        /* 1.38188rem */
-}
-.footer-social{
-    color: #040404;
-        font-family: 'Roboto', sans-serif;
-        font-size: 1rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 138.188%;
-        /* 1.38188rem */
+    font-weight: 600;
+    line-height: normal;
+    margin: 20% auto;
 }
